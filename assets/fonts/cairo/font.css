@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Cairo';
+  src: url('cairo-semibold.woff') format('woff'),
+    url('cairo-semibold.svg#cairo-semibold') format('svg'),
+    url('cairo-semibold.eot'),
+    url('cairo-semibold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('cairo-bold.woff') format('woff'),
+    url('cairo-bold.svg#cairo-bold') format('svg'),
+    url('cairo-bold.eot'),
+    url('cairo-bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('cairo-black.woff') format('woff'),
+    url('cairo-black.svg#cairo-black') format('svg'),
+    url('cairo-black.eot'),
+    url('cairo-black.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Cairo';
+}
